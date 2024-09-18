@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top-1{
+    background-image: url(images/aboutbg.webp);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.about-p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* margin-left: 7vh; */
+    /* text-transform: uppercase; */
+    font-size: 6rem;
+    font-weight: 500;
+    color:whitesmoke;
+    font-family: 'Aguafina Script', sans-serif;
+    min-height: 23vh;
+
+}
+.image-sec{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:flex-start;
+    gap:3rem;
+    margin-left: 7vh;
+    min-height: 60vh;
+}
+img{
+    height: 10%;
+    width: 20%;
+    border-radius: 2.5%;
+    position:relative;
+}
+.image-para{
+    font-family:'Trirong', sans-serif ;
+    color:#ddd;
+    font-size: 1.3rem;
+    font-weight: 400;
+    align-items: center;
+    margin-right: 29vh;
+    margin-left: 29vh;
+    margin-bottom: 10vh; 
+    min-height: 40vh;
+    /* width:35rem; */
+    position: relative;
+    text-align: center;
+}
+.image-para2{
+    font-family:'Trirong', sans-serif ;
+    color:#ddd;
+    font-size: 1.3rem;
+    font-weight: 500;
+    align-items: center;
+    margin-right: 30vh;
+    margin-left: 30vh;
+    margin-top: 0%;
+    margin-bottom: 2vh; 
+    /* width:35rem; */
+    position: relative;
+    text-align: center;
+
+}
+

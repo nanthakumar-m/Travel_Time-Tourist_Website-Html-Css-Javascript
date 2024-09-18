@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POLIGNANO</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Basic&family=Poppins&display=swap");
+
+/* :root {
+  --background: #8F3A84;
+  --background-border: #00fffc;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body {
+  font-family: Poppins;
+  height: 100vh;
+  padding: 32px;
+  display: grid;
+  place-items: center;
+  background-image:url(images/polignano.bg.webp);
+  background-size: cover;
+  background-position: center;
+}
+.texter{
+  text-align: center;
+}
+
+.gallery {
+  display: flex;
+  background-color:
+   var(--background);
+  gap: 16px;
+  scale: 1.6;
+}
+
+.card {
+  position: relative;
+  left: 0px;
+  width: 140px;
+  height: 160px;
+  background-color: var(--background);
+  border-radius: 8px;
+  transition: 1000ms all;
+  transform-origin: center left;
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.5);
+  outline: 1px solid var(--background);
+  overflow: hidden;
+}
+
+.card img {
+  height: 160px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+  display: block;
+ 
+}
+.card:hover {
+  cursor: pointer;
+  transform: scale(1.15);
+  box-shadow: 0 0 20px
+   #00fffc;
+  margin: 5px;
+}
+.card:hover figcaption {
+  font-size: 0.6rem;
+  position: absolute;
+  height: 80px;
+  width: 160px;
+  display: flex;
+  align-items: end;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.9) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  color: white;
+  left: 0px;
+  bottom: 0px;
+  padding-left: 12px;
+  padding-bottom: 10px;
+}
+
+.card:hover ~ .card {
+  font-weight: bold;
+  cursor: pointer;
+  transform: translateX(22px);
+}
+
+
+
+/* -- YouTube Link Styles -- */
+
+#source-link {
+  top: 60px;
+}
+
+#source-link > i {
+  color: rgb(94, 106, 210);
+}
+
+#yt-link {  
+  top: 10px;
+}
+
+#yt-link > i {
+  color: rgb(219, 31, 106); 
+
+}
+
+.meta-link {
+  align-items: center;
+  backdrop-filter: blur(3px);
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+  cursor: pointer;  
+  display: inline-flex;
+  gap: 5px;
+  left: 10px;
+  padding: 10px 20px;
+  position: fixed;
+  text-decoration: none;
+  transition: background-color 600ms, border-color 600ms;
+  z-index: 10000;
+}
+
+.meta-link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.meta-link > i, .meta-link > span {
+  height: 20px;
+  line-height: 20px;
+}
+
+.meta-link > span {
+  color: white;
+  font-family: "Rubik", sans-serif;
+  transition: color 600ms;
+}
+p{
+    color: azure;
+    padding-left: 100px;
+    padding-right:100px ;
+
+}
+
+    </style>
+</head>
+<body>
+    <div class="gallery">
+      <article class="card">
+          <figure>
+            <img src= "images/card 2 images/aelx-mcsibSmyf4M-unsplash.webp">
+          </figure>
+        </article>
+        <article class="card">
+          <figure>
+            <img src="images/card 2 images/andrea-giardini--GXV-6Pqgls-unsplash.webp">
+            
+          </figure>
+        </article>
+        <article class="card">
+          <figure>
+            <img src="images/card 2 images/bradley-_rbD9apAHmQ-unsplash (1).webp">
+          
+          </figure>
+        </article>
+        <article class="card">
+          <figure>
+            <img src="images/card 2 images/felicia-varzari-1lKs67ZyLVk-unsplash.webp">
+            
+          </figure>
+        </article>
+
+        <article class="card">
+          <figure>
+            <img src="images/card 2 images/joshua-kettle-3mO9JLolVIg-unsplash.webp" >
+            
+          </figure>
+        </article>
+
+        
+        <!-- Pictures from Freepik -->
+      </div>
+
+      <div class="texter">
+        <article class="location" data-aos="fade-up">
+        <div class="nav-loc" >
+          <p class="loc-text" > Polignano a Mare is a picturesque coastal town located in the Apulia region of southern Italy. Perched atop dramatic limestone cliffs that overlook the crystal-clear waters of the Adriatic Sea, this charming town is renowned for its stunning natural beauty and historic architecture. The town's whitewashed buildings, narrow winding streets, and quaint piazzas create a postcard-perfect Mediterranean atmosphere. One of Polignano's most famous attractions is the Grotta Palazzese, a unique restaurant situated inside a natural cave, offering diners a breathtaking view of the sea. Visitors can also enjoy sunbathing on the small beaches, exploring the ancient town center, and savoring delicious Italian cuisine in the local trattorias.
+        </article>
+          </div>
+        <p></p>
+      </div>
+
+      
+</body>
+</html>
