@@ -15,7 +15,7 @@ The goal of this project was to strengthen my skills in front-end development, i
 - JavaScript
 - AOS (Animate On Scroll) for scroll-triggered animations
 
-## 🎯 Learning Objectives / Concepts Practiced
+## 🎯 What I Gained  / Concepts Practiced
 
 ✅ Strengthening front-end development skills with HTML, CSS, and JS
 
